@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selamat Ulang Tahun!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="hearts"></canvas>
+  <h1>Selamat Ulang Tahun ke-23, Sayanggg! 🎉</h1>
+  <div class="photo"></div>
+
+  <div class="messages">
+    <button class="message-btn" onclick="showMessage(1)">🎁 Buka ini sayangg</button>
+    <button class="message-btn" onclick="showMessage(2)">💖 Nih buka lagii</button>
+    <button class="message-btn" onclick="showMessage(3)">🌟 Ini juga yaaa cantik</button>
+    <button class="message-btn" onclick="showMessage(4)">🎂 Ini yang terakhir hehe</button>
+  </div>
+
+  <div id="messageBox" class="message"></div>
+
+  <button class="music-btn" onclick="playMusic()">🎵 Mainkan Musik</button>
+  <audio id="bgMusic" loop>
+    <source src="/folder/ulangtahun.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
