@@ -19,7 +19,14 @@
     <button class="message-btn" onclick="showMessage(4)">🎂 Ini yang terakhir hehe</button>
   </div>
 
-  <div id="messageBox" class="message"></div>
+  <!-- Modal -->
+<div id="messageModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p id="modalMessage"></p>
+  </div>
+</div>
+
 
   <button class="music-btn" onclick="playMusic()">🎵 Mainkan Musik</button>
   <audio id="bgMusic" loop>
