@@ -1,7 +1,7 @@
 const messages = [
-  "SELAMAT ULANG TAHUN SAYANGNYA AKU CINTANYA AKU MANISNYA AKU GEMESNYA AKUUUUUU",
-  "Di usia yang ke-23 ini, semoga semua impianmu tercapai dan selalu dikelilingi Hal kebaikan dan kebahagiaan.",
-  "Tetap Semangat dalam menjalani hari yaa sayang, Cantiknya aku orangnya kuat ko hebat juga lagi pokonyaa the best bangetttttt!!",
+  "SELAMAT ULANG TAHUN SAYANGNYA AKU CINTANYA AKU MANISNYA AKU GEMESNYA AKUUUUUU 💕💕💕",
+  "Di usia yang ke-23 ini, semoga  bisa jadi lebih baik lagi dan selalu dikelilingi Hal kebaikan dan kebahagiaan.",
+  "Tetap Semangat dalam menjalani hari-harinya yaa sayang, Cantiknya aku orangnya kuat ko hebat juga lagi pokonyaa the best bangetttttt!!",
   "Selamat ulang tahun, cintaku. Semoga kita selalu sama-sama yaa sayangg, I Love you More! 💕💕💕"
 ];
 
