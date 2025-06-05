@@ -6,10 +6,24 @@ const messages = [
 ];
 
 function showMessage(index) {
-  const box = document.getElementById('messageBox');
-  box.style.display = 'block';
-  box.textContent = messages[index - 1];
+  const modal = document.getElementById('messageModal');
+  const modalMsg = document.getElementById('modalMessage');
+  modalMsg.textContent = messages[index - 1];
+  modal.style.display = 'block';
 }
+
+function closeModal() {
+  document.getElementById('messageModal').style.display = 'none';
+}
+
+// Tutup modal jika klik di luar kontennya
+window.onclick = function(event) {
+  const modal = document.getElementById('messageModal');
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
+};
+
 
 function playMusic() {
   document.getElementById('bgMusic').play();
